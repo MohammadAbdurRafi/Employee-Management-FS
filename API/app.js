@@ -7,7 +7,7 @@ const { Employee, employeePATH } = require("./models/employees")
 const designationObject = new Designation()
 const employeeObject = new Employee()
 
-
+// Shows where to store images and what to do with their extensions
 const storage = multer.diskStorage({
   destination: function(req, res, cb) {
     cb(null, "./uploads")
@@ -17,6 +17,7 @@ const storage = multer.diskStorage({
   }
 })
 
+// get the file extension from the file's mime type
 const getExtension = (mimeType) => {
   switch(mimeType) {
     case "image/png":
@@ -83,12 +84,13 @@ app.delete('/api/designations/:designation_id', (req, res) => {
     const designations = designationObject.get();
     const designationToDelete = designations.find((el) => el.id === id);
   
+    // If the designation doesn't exist, then it can't be deleted
     if (!designationToDelete) {
       res.status(404).json({ message: 'Designation not found!' });
       return;
     }
   
-    // Remove the designated designation from the array
+    // Remove the designation from the array
     const updatedDesignations = designations.filter((el) => el.id !== id);
   
     // Save the updated data back to the file
