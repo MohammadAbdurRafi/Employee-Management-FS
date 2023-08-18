@@ -1,1 +1,13 @@
-[{"id":"c83b08cb-d7d0-40cd-831b-c5325a7028ca","designation_id":"3","name":"Mustafa Zaman","job_title":"Full Stack Web Developer","salary":"100000","image":"uploads\\image-1692239786961.png","phone_number":"123-456-7890","address":"2950 Mockernut Court","date_employed":"Wed Aug 16 2023 22:36:26 GMT-0400 (Eastern Daylight Time)"},{"id":"dd32e127-2fed-4de9-8830-81fe7c607915","designation_id":"2","name":"Iftekhar Zaman","job_title":"Fullstack Web Developer","salary":"70000","image":"uploads\\image-1692222539591.png","email":"iftekhar.zaman.1@gmail.com","phone_number":"N/A","address":"N/A","date_employed":"Wed Aug 16 2023 17:48:59 GMT-0400 (Eastern Daylight Time)"},{"id":"3f85a0ce-b9c3-4dc9-9614-4a376f09d6ff","designation_id":"1","name":"Mohammad A. Rafi","job_title":"Full Stack Web Developer","salary":"70000","image":"uploads\\image-1690406352997.jpeg","email":"mohammad.abdur.rafi.2@gmail.com","phone_number":"703-203-8101","address":"26106 Huntwick Glen Sq. Aldie, VA 20105","date_employed":"Wed Jul 26 2023 17:19:12 GMT-0400 (Eastern Daylight Time)"}]
+[
+  {
+    "id": "dbe782b4-3b36-4630-a119-3c197b6ca382",
+    "designation_id": "2",
+    "name": "Ifty Zaman",
+    "job_title": "Full Stack Web Developer",
+    "salary": "100000",
+    "image": "uploads\\image-1692366803624.png",
+    "phone_number": "123-456-7890",
+    "address": "2950 Mockernut Court",
+    "date_employed": "Fri Aug 18 2023 09:53:23 GMT-0400 (Eastern Daylight Time)"
+  }
+]

@@ -23,8 +23,13 @@ const submitNewEmployee = () => {
     fetch(API_URL, {
         method: "POST",
         body: data
-    }),then(() => {
-        console.log(response, 'response');
+    }),then((response) => {
+        console.log('response', response);
+        if (response.ok) {
+            window.location.href = '/client/index.html'
+        } else {
+            console.log('Error submitting employee data');
+        }
     }).catch((err) => {
         console.log(err);
     })
