@@ -1,1 +1,35 @@
-[{"id":"54b0869a-3050-440c-b4c4-51436195742f","designation_id":"1","name":"Mohammad Abdur Rafi","job_title":"CEO","salary":"1000000","image":"uploads\\image-1692384484180.jpeg","phone_number":"123-456-7890","address":"2950 Mockernut Court","date_employed":"Fri Aug 18 2023 14:48:04 GMT-0400 (Eastern Daylight Time)"},{"id":"85bc7343-d86c-4ffb-9100-0cde20a63093","designation_id":"3","name":"Mustafa Zaman","job_title":"Application Tester","salary":"80000","image":"uploads\\image-1692384443460.png","phone_number":"123-456-7890","address":"2950 Mockernut Court","date_employed":"Fri Aug 18 2023 14:47:23 GMT-0400 (Eastern Daylight Time)"},{"id":"dbe782b4-3b36-4630-a119-3c197b6ca382","designation_id":"2","name":"Ifty Zaman","job_title":"Full Stack Web Developer","salary":"100000","image":"uploads\\image-1692366803624.png","phone_number":"123-456-7890","address":"2950 Mockernut Court","date_employed":"Fri Aug 18 2023 09:53:23 GMT-0400 (Eastern Daylight Time)"}]
+[
+  {
+    "id": "54b0869a-3050-440c-b4c4-51436195742f",
+    "designation_id": "1",
+    "name": "Mohammad Abdur Rafi",
+    "job_title": "CEO",
+    "salary": "1000000",
+    "image": "uploads\\image-1692384484180.jpeg",
+    "phone_number": "123-456-7890",
+    "address": "2950 Mockernut Court",
+    "date_employed": "Fri Aug 18 2023 14:48:04 GMT-0400 (Eastern Daylight Time)"
+  },
+  {
+    "id": "85bc7343-d86c-4ffb-9100-0cde20a63093",
+    "designation_id": "3",
+    "name": "Mustafa Zaman",
+    "job_title": "Application Tester",
+    "salary": "80000",
+    "image": "uploads\\image-1692384443460.png",
+    "phone_number": "123-456-7890",
+    "address": "2950 Mockernut Court",
+    "date_employed": "Fri Aug 18 2023 14:47:23 GMT-0400 (Eastern Daylight Time)"
+  },
+  {
+    "id": "dbe782b4-3b36-4630-a119-3c197b6ca382",
+    "designation_id": "2",
+    "name": "Ifty Zaman",
+    "job_title": "Full Stack Web Developer",
+    "salary": "100000",
+    "image": "uploads\\image-1692366803624.png",
+    "phone_number": "123-456-7890",
+    "address": "2950 Mockernut Court",
+    "date_employed": "Fri Aug 18 2023 09:53:23 GMT-0400 (Eastern Daylight Time)"
+  }
+]
